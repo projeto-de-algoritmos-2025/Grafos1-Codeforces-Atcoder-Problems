@@ -1,1 +1,1 @@
-# Grafos1-Codeforces-Atcoder-Leonardo-Machado-Geovanna-Maciel
+# Grafos1-Codeforces-Atcoder
