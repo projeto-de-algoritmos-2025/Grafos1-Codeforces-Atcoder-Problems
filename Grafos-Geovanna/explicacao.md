@@ -3,6 +3,7 @@
 ## Third Avenue
 
 Problema no AtCoder: [https://atcoder.jp/contests/abc184/tasks/abc184_e](https://atcoder.jp/contests/abc184/tasks/abc184_e)
+Submissão: [https://atcoder.jp/contests/abc184/submissions/64711995](https://atcoder.jp/contests/abc184/submissions/64711995)
 
 ### Explicação da solução: 
 BFS numa matriz 2D, em que cada nó que representa uma letra é um portal para um nó de mesma letra, com custo 1 toda vez q visitar uma letra pela primeira vez, vc marca a distância+1 pra cada nó de mesma letra e distância menor e marca que visitou aquela letra. Ao final, só retornar a menor distância até G.
@@ -75,6 +76,8 @@ signed main(){
 ## Peddler
 
 Problema no AtCoder: [https://atcoder.jp/contests/abc188/tasks/abc188_e](https://atcoder.jp/contests/abc188/tasks/abc188_e)
+Submissão: [https://atcoder.jp/contests/abc188/submissions/64711807](https://atcoder.jp/contests/abc188/submissions/64711807)
+
 
 ### Explicação da solução: 
 Trata-se de uma busca em profundidade (DFS) convencional, na qual é mantido o menor valor encontrado até o momento, sendo atualizado conforme são visitados nós com valores inferiores. O maior valor associado a cada nó é armazenado em um vetor auxiliar. A resposta é computada da seguinte forma: para cada nó ii, atualiza-se mx[i]=max⁡(mx[i],mx[j])mx[i]=max(mx[i],mx[j]), onde jj representa cada filho de ii. Ao final, a resposta global é determinada por ans=max⁡(ans,mx[i]−min_atual)ans=max(ans,mx[i]−min_atual).
@@ -135,6 +138,7 @@ signed main(){
 ## Palindromic Shortest Path
 
 Problema no AtCoder: [https://atcoder.jp/contests/abc394/tasks/abc394_e](https://atcoder.jp/contests/abc394/tasks/abc394_e)
+Submissão: [https://atcoder.jp/contests/abc394/submissions/64423573](https://atcoder.jp/contests/abc394/submissions/64423573)
 
 ### Explicação da solução: 
 O problema consiste em encontrar o menor caminho em que os vértices formam um palíndromo, e a abordagem utilizada é uma busca em largura (BFS). A distância é zero quando o nó parte para ele mesmo, e é igual a um nos casos em que o caminho é composto por um único caractere. Durante o processo de busca, para cada par de nós visitados, realiza-se uma verificação de complexidade quadrática com o objetivo de identificar a existência de um nó intermediário XX que seja acessível a partir de ambos, e cujas arestas de ida e volta possuam o mesmo rótulo, desde que esse rótulo não seja nulo (ou seja, diferente de "-").
