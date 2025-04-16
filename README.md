@@ -7,4 +7,8 @@
 |Matrícula | Aluno |
 | -- | -- |
 | 202016328  | Geovanna Maciel Avelino da Costa |
-| nao sei | Leonardo Gonçalves Machado |
+| 211029405 | Leonardo Gonçalves Machado |
+
+[Questões da Geovanna](Grafos%-%Geovanna/explicacao.md)
+
+[Questões do Leonardo](Grafos-Leonardo/explicacao.md)
