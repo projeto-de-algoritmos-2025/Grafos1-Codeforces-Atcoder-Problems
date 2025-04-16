@@ -9,6 +9,6 @@
 | 202016328  | Geovanna Maciel Avelino da Costa |
 | 211029405 | Leonardo Gonçalves Machado |
 
-[Questões da Geovanna](Grafos%-%Geovanna/explicacao.md)
+[Questões da Geovanna](Grafos-Geovanna/explicacao.md)
 
 [Questões do Leonardo](Grafos-Leonardo/explicacao.md)
