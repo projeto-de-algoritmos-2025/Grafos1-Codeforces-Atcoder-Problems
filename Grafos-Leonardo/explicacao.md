@@ -76,6 +76,8 @@ Abaixo está o link para o código no repositório que resolve esse problema:
 
 [HarmoniousGraph.cpp](./HarmoniousGraph.cpp)
 
+[Link da Submissão](https://codeforces.com/contest/1253/submission/314815150)
+
 ## RGB Coloring 2
 
 Plataforma: Atcoder
@@ -161,6 +163,8 @@ Abaixo está o link para o código no repositório que resolve o problema:
 
 [rgbColoring2.cpp](./rgbColoring2.cpp)
 
+[Link da Submissão](https://atcoder.jp/contests/abc199/submissions/64807024)
+
 ## Police Stations
 
 Plataforma: Codeforces
@@ -235,3 +239,5 @@ Por fim nosso grafo com as estradas preservadas será:
 Abaixo está o link para o código no repositório que resolve o problema:
 
 [policeStations.cpp](./policeStations.cpp)
+
+[Link da Submissão](https://codeforces.com/contest/796/submission/315778275)
