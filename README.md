@@ -12,3 +12,5 @@
 [Questões da Geovanna](Grafos-Geovanna/explicacao.md)
 
 [Questões do Leonardo](Grafos-Leonardo/explicacao.md)
+
+[Vídeo](Apresentacao.mp4) (OBS: é necessário baixar o arquivo .mp4)
