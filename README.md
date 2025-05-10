@@ -17,7 +17,7 @@
 
 # Grafos2-Codeforces-Atcoder-Problems
 
-[Questões da Geovanna](Grafos2-Geovanna/explicacao.md)
+[Questões da Geovanna](Grafos2-Geovanna/explicação.md)
 
 [Questões do Leonardo](Grafos-Leonardo/explicacao.md)
 
