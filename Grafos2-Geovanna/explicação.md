@@ -39,4 +39,15 @@ Problema no AtCoder: [https://atcoder.jp/contests/abc395/tasks/abc395_e](https:/
 Submissão: [https://atcoder.jp/contests/abc395/submissions/65704215](https://atcoder.jp/contests/abc395/submissions/65704215)
 
 ### Explicação da solução: 
+Nesta questão, o objetivo é determinar o menor caminho entre vértices em um grafo, considerando dois tipos distintos de operações: percorrer arestas normalmente e r everter todas as direções das arestas do grafo, mediante um custo adicional fixo XX.
+
+Para lidar com essa dinâmica, utiliza-se uma abordagem modificada de Dijkstra, mantendo duas versões da distância mínima para cada vértice:
+
+* dist[u][0]dist[u][0]: menor distância até o vértice uu quando o grafo está em seu estado original (não revertido);
+
+* dist[u][1]dist[u][1]: menor distância até o vértice uu quando o grafo está no estado revertido.
+
+O algoritmo segue as regras de: para transições entre os estados (ou seja, de estado 0 para 1 ou de 1 para 0), adiciona-se o custo fixo XX à prioridade na fila (heap); Para movimentações dentro do mesmo estado (isto é, continuar percorrendo arestas no estado atual), adiciona-se o custo da aresta correspondente normalmente.
+
+Essa variação do algoritmo de Dijkstra garante a correta consideração dos dois contextos de execução (original e revertido). A complexidade total da solução é O(N+Mlog⁡M)O(N+MlogM), onde NN é o número de vértices e MM o número de arestas.
 
